@@ -1,0 +1,15 @@
+{
+    "name": "healthtracker/app",
+    "description": "Aplikasi pengelolaan kesehatan pribadi",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "mongodb/mongodb": "^1.15",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "HealthTracker\\": "src/"
+        }
+    }
+} 
